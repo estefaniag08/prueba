@@ -10,13 +10,13 @@ public class TelefonoBasico implements TelefonoAbstracto {
 	
 	public String enviar(int tiempoMin) {
 		minutosOperador=minutosOperador-tiempoMin;
-		return "Se puede gastar minutos de operador";
+		return "Llamada realizada con minutos de operador";
 	}
 
 	
 	public String recibir(int tiempoMin) {
 		minutosOperador=minutosOperador+tiempoMin;
-		return "Se puede recargar minutos de operador";
+		return "Minutos de operador recargados ";
 	}
 	
 	public String  mirarEstado(){

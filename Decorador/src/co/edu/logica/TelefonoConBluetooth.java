@@ -9,13 +9,13 @@ public class TelefonoConBluetooth extends DecoradorTelefono {
 	
 	public String enviar(int tiempoNavegacion) {
 		bateriaTelefono=bateriaTelefono-tiempoNavegacion*0.03;
-		return "Se puede enviar archivos por bluetooth";
+		return "Archivo enviado por bluetooth";
 		
 	}
 
 	public String recibir(int tiempoNavegacion) {
 		bateriaTelefono=bateriaTelefono-tiempoNavegacion*0.02;
-		return "Se puede recibir archivos por bluetooth";	
+		return "Archivo recibido por bluetooth";	
 	}
 
 	public String mirarEstado() {

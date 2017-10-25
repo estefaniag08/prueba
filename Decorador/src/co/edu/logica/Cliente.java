@@ -30,7 +30,6 @@ public class Cliente {
 		datos.muestraTexto("Accion realizada: " + gestionTelefono.realizarAccion(opcion, tiempoMinutos));
 		datos.muestraTexto("Estadisticas: " + telefono.mirarEstado());	
 		
-		datos.muestraTexto("Prueba de uso para el github");
 	}
 
 }
