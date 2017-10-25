@@ -9,12 +9,12 @@ public class TelefonoConDatos extends DecoradorTelefono {
 
 	public String enviar(int tiempoNavegacion) {
 		cantidadDatos=cantidadDatos-tiempoNavegacion*0.05;
-		return "Se puede enviar mensajes por medio de datos";
+		return "Mensaje enviado por medio de datos";
 	}
 
 	public String recibir(int tiempoNavegacion) {
 		cantidadDatos=cantidadDatos-tiempoNavegacion*0.02;
-		return "Se puede recibir mensajes por medio de datos";
+		return "Mensaje recibido por medio de datos";
 	}
 
 	public String mirarEstado() {
