@@ -11,7 +11,7 @@ public class Cliente {
 		DecoradorTelefono telefono;
 		TelefonoBasico telefonoB= new TelefonoBasico(100);
 		
-		datos.muestraTexto("Que teléfono desea?");
+		datos.muestraTexto("¿Qué teléfono desea?");
 		datos.muestraTexto("1. Telefono Básico + Bluetooth");
 		datos.muestraTexto("2. Telefono Básico + Wi-Fi");
 		datos.muestraTexto("3. Telefono Básico + Datos Móviles");
@@ -29,6 +29,8 @@ public class Cliente {
 		
 		datos.muestraTexto("Accion realizada: " + gestionTelefono.realizarAccion(opcion, tiempoMinutos));
 		datos.muestraTexto("Estadisticas: " + telefono.mirarEstado());	
+		
+		datos.muestraTexto("Prueba de uso para el github");
 	}
 
 }
