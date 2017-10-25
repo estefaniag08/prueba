@@ -16,4 +16,8 @@ public class GestorInformacion {
 	public void muestraTexto(String texto){
 		System.out.println(texto);	
 	}
+	public double leerDouble(){
+		double numeroDouble = lectura.nextDouble();
+		return numeroDouble;
+	}
 }
