@@ -13,7 +13,7 @@ public class Cliente {
 		
 		datos.muestraTexto("¿Qué teléfono desea?");
 		datos.muestraTexto("1. Telefono Básico + Bluetooth");
-		datos.muestraTexto("2. Telefono Básicof gggg Wi-Fi");
+		datos.muestraTexto("2. Telefono Básicof + Wi-Fi");
 		datos.muestraTexto("3. Telefono Básico + Datos Móviles");
 		opcion= datos.leerInt();
 		
