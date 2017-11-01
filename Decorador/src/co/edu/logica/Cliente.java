@@ -12,8 +12,8 @@ public class Cliente {
 		TelefonoBasico telefonoB= new TelefonoBasico(100);
 		
 		datos.muestraTexto("¿Qué teléfono desea?");
-		datos.muestraTexto("1. Telefono Básico + Bluetooth");
-		datos.muestraTexto("2. Telefono Básico + Wi-Fi");
+		datos.muestraTexto("1. Telefono Básico jh+ Bluetooth");
+		datos.muestraTexto("2. Telefono Básico h+ Wi-Fi");
 		datos.muestraTexto("3. Telefono Básico + Datos Móviles");
 		opcion= datos.leerInt();
 		
